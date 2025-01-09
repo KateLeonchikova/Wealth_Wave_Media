@@ -4,7 +4,7 @@
    `git clone https://github.com/KateLeonchikova/Wealth_Wave_Media.git`
 
 2. **Navigate to the Project Directory:**
-   `cd `
+   `cd Wealth_Wave_Media`
 
 3. **Install dependencies:**
    Ensure you have Node.js installed, then run the following command:
@@ -16,8 +16,6 @@
 5. **Build project:**
    `npm run build`
    The build files will be generated in the dist directory.
-
-   Run the Production Build: To preview the production build locally, run:
 
 6. **Run the Production Build:**
    To preview the production build locally, run:
