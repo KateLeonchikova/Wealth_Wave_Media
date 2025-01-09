@@ -1,0 +1,13 @@
+.siteNav__container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.siteNav__img {
+  width: 80px;
+  height: 80px;
+}

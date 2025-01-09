@@ -1,0 +1,23 @@
+.top {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(to bottom, #212169, #6666ea);
+}
+
+.top__title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: 48px;
+  font-weight: 700px;
+}
+
+.top__img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.top__text {
+  margin: 0;
+  font-size: 24px;
+}

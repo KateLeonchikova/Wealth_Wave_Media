@@ -1,0 +1,99 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 600px;
+  height: 400px;
+  gap: 20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal__title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+
+.modal__img {
+  width: 60px;
+  height: 60px;
+}
+
+.modal__text {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+.modal__buttons {
+  display: flex;
+  gap: 40px;
+}
+
+.modal__btn {
+  border: none;
+  outline: none;
+  width: 150px;
+  border-radius: 16px;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.modal__btn_yes {
+  background-color: rgb(100, 200, 95);
+}
+
+.modal__btn_yes:focus-visible,
+.modal__btn_yes:hover {
+  background-color: rgb(51, 186, 44);
+}
+
+.modal__btn_no {
+  background-color: rgb(215, 98, 98);
+}
+
+.modal__btn_no:focus-visible,
+.modal__btn_no:hover {
+  background-color: rgb(211, 51, 51);
+}
+
+@media (max-width: 768px) {
+  .modal__content {
+    padding: 20px;
+    max-width: 320px;
+    height: 300px;
+  }
+
+  .modal__title {
+    font-size: 24px;
+  }
+
+  .modal__text,
+  .modal__btn {
+    font-size: 16px;
+  }
+
+  .modal__btn {
+    width: 100px;
+  }
+}

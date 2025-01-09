@@ -1,0 +1,43 @@
+.privacy__container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.privacy__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.privacy__content {
+  margin-bottom: 20px;
+}
+
+.privacy__subtitle {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.privacy__text {
+  margin: 0;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .privacy__title {
+    font-size: 24px;
+  }
+
+  .privacy__subtitle {
+    font-size: 18px;
+  }
+
+  .privacy__text {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,8 @@
+.header {
+  background: linear-gradient(to bottom, #2d2d5f, #5858ac);
+}
+
+.header__container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

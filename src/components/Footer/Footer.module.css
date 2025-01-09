@@ -1,0 +1,24 @@
+.footer {
+  background: linear-gradient(to bottom, #2d2d5f, #5858ac);
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer__terms {
+  margin: 0 auto;
+  max-width: 700px;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer__terms {
+    font-size: 14px;
+  }
+}
